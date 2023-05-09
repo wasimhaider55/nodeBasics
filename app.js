@@ -1,6 +1,12 @@
-const greet = (name) => {
-    console.log(name)
-}
+const {person,people} = require("./person"); // imported module here 
+console.log(person);
+console.log(people);
+
+
+// -------------------------------//
+// const greet = (name) => {
+//     console.log(name)
+// }
 
 // greet("wasim Haider");
 // greet("asim haider");
